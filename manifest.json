@@ -1,21 +1,20 @@
 {
-  "name": "SuperChromePass",
+  "name": "EnigmaPass",
   "description": "Generate secure, per-domain password based on an original master password, with the click of a button",
   "version": "1.1",
 		"background_page": "scp_background.html",
 		"options_page": "scp_options.html",
-		"update_url": "http://superchromepass.googlecode.com/files/update.xml",
   "permissions": [
 				"tabs", "http://*/*", "https://*/*"
 		],
 		"browser_action": {
-				"default_title": "SuperChromePass",
+				"default_title": "EnigmaPass",
 				"default_icon": "icon_19.png",
 				"popup": "scp_popup.html"
   },
 		"content_scripts": [{
 				"matches": ["http://*/*", "https://*/*"],
-				"js": ["jquery.js","superchromepass.js","supergenpass.js"],
+				"js": ["jquery.js","enigmapass.js","supergenpass.js"],
 				"css": ["scp.css","updateBar.css"]
 		}],
   "icons": {

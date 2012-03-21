@@ -1,4 +1,4 @@
-.superchromepass_button{
+.enigmapass_button{
 	background:    -webkit-gradient(
                  linear,
                  left bottom,
@@ -18,23 +18,23 @@
 	z-index:       998 !important;
 }
 
-.superchromepass_button.expanded{
+.enigmapass_button.expanded{
 	height:        auto !important;
 	z-index:       999 !important;
 }
 
-.superchromepass_button.corner{
+.enigmapass_button.corner{
 	border:        1px solid #19b319 !important;
 }
 
-.superchromepass_button ul{
+.enigmapass_button ul{
 	margin:        0 !important;
 	padding:       0 !important;
 	list-style:    none !important;
 	color:         #fff !important;
 }
 
-.superchromepass_button li{
+.enigmapass_button li{
 	margin:        0 !important;
 	padding:       0 !important;
 	list-style:    none !important;
@@ -44,11 +44,11 @@
 	line-height:   18px !important;
 }
 
-.superchromepass_button li:hover,.superchromepass_button li.active{
+.enigmapass_button li:hover,.enigmapass_button li.active{
 	background:    rgba(0,0,0,0.15) !important;
 }
 
-.superchromepass_button input{
+.enigmapass_button input{
 	padding:       3px !important;
 	margin:        3px 6px !important;
 	width:         130px !important;
@@ -57,14 +57,14 @@
 	display:       block !important;
 	clear:         both !important;
 }
-.superchromepass_button input.good{
+.enigmapass_button input.good{
 	background:    #effcef !important;
 }
-.superchromepass_button input.bad{
+.enigmapass_button input.bad{
 	background:    #ffe8ea !important;
 }
 
-.superchromepass_button p{
+.enigmapass_button p{
 	margin:        0 !important;
 	padding:       2px 0 !important;
 	text-align:    center !important;
