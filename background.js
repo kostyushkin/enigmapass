@@ -75,11 +75,10 @@ chrome.extension.onRequest.addListener(
 					}
 					else
 					{
-						//chrome.experimental.infobars.show({path: 'scp_info_updated.html'});
 						sendResponse(
 						{
 							notify: true,
-							message: 'SuperChromePass has been updated to the latest version ('+
+							message: 'EnigmaPass has been updated to the latest version ('+
 							v.toFixed(1).toString()+'). Click the options button for more:'
 						});
 					}

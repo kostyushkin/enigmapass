@@ -296,7 +296,7 @@ chrome.extension.sendRequest({message: 'versioncheck'}, function(response)
 {
 		if(response.notify)
 		{
-				UpdateNotify(response.message,false,'Options','scp_options.html');
+				UpdateNotify(response.message,false,'Options','options.html');
 				chrome.extension.sendRequest({message: 'versioncheck', notify: true});
 		}
 });

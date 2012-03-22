@@ -1,25 +1,28 @@
 {
-  "name": "EnigmaPass",
-  "description": "Generate secure, per-domain password based on an original master password, with the click of a button",
-  "version": "1.1",
-		"background_page": "scp_background.html",
-		"options_page": "scp_options.html",
-  "permissions": [
-				"tabs", "http://*/*", "https://*/*"
-		],
-		"browser_action": {
-				"default_title": "EnigmaPass",
-				"default_icon": "icon_19.png",
-				"popup": "scp_popup.html"
-  },
-		"content_scripts": [{
-				"matches": ["http://*/*", "https://*/*"],
-				"js": ["jquery.js","enigmapass.js","supergenpass.js"],
-				"css": ["scp.css","updateBar.css"]
+    "name": "EnigmaPass",
+    "description": "Generate secure, per-domain password based on an original master password, with the click of a button",
+    "version": "1.2",
+    "background_page": "background.html",
+    "options_page": "options.html",
+    "permissions":  
+        [
+	        "tabs", "http://*/*", "https://*/*"
+	    ],
+    "browser_action":
+        {
+            "default_title": "EnigmaPass",
+            "default_icon": "icon_19.png",
+            "popup": "popup.html"
+        },
+    "content_scripts":
+        [{
+            "matches": ["http://*/*", "https://*/*"],
+            "js": ["jquery.js","enigmapass.js","supergenpass.js"],
 		}],
-  "icons": {
-    "128": "icon_128.png",
-				"19": "icon_19.png",
-				"16": "icon_16.png"
-  }
+    "icons":
+        {
+            "128": "icon_128.png",
+            "19": "icon_19.png",
+            "16": "icon_16.png"
+        }
 }
