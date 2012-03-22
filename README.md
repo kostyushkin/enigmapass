@@ -5,4 +5,4 @@ EnigmaPass is a [Chrome Extension](https://chrome.google.com/webstore/detail/bgk
 
 When you're not able to use EnigmaPass, you can still use the tools available at [SuperGenPass](http://supergenpass.com), they will generate the same passwords.
 
-So why use EnigmaPass? Well, being a chrome extension, EnigmaPass benefits from the enhanced security between tab and browser in Google Chrome. A website would not be able to detect any information placed in EnigmaPass, which they may be able to with EnigmaPass.
+So why use EnigmaPass? Well, being a chrome extension, EnigmaPass benefits from the enhanced security between tab and browser in Google Chrome. A website would not be able to detect any information placed in EnigmaPass, which they may be able to with SuperGenPass.
