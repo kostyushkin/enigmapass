@@ -1,7 +1,7 @@
 {
     "name": "EnigmaPass",
     "description": "Generate secure, per-domain password based on an original master password, with the click of a button",
-    "version": "1.2",
+    "version": "1.2.1",
     "background_page": "background.html",
     "options_page": "options.html",
     "permissions":  
