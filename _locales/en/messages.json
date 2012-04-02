@@ -1,0 +1,14 @@
+{
+    "name": {
+        "message": "EnigmaPass",
+        "description": "Extension name" 
+    },
+    "description": {
+        "message": "Generate secure, per-domain password based on an original master password, with the click of a button",
+        "description": "Extension description" 
+    },
+    "title": {
+        "message": "EnigmaPass",
+        "description": "Browser action title" 
+    }
+}
