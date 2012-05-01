@@ -7,9 +7,10 @@
     "icons": {"128": "icon_128.png", "19": "icon_19.png", "16": "icon_16.png"},
     "browser_action": {"default_title": "__MSG_title__", "default_icon": "icon_19.png", "popup": "popup.html"},
     "permissions": ["tabs", "http://*/*", "https://*/*"],
-    "content_scripts":
-    [
-        {"matches": ["http://*/*", "https://*/*"], "js": [ "jquery.js", "enigmapass.js", "supergenpass.js"]}
-    ],
+    "content_scripts": [{
+        "matches": ["http://*/*", "https://*/*"],
+        "js": ["jquery.js", "enigmapass.js", "supergenpass.js"],
+        "css": ["scp.css"]
+    }],
     "default_locale": "en",
 }
