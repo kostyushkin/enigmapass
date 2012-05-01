@@ -2,6 +2,7 @@
     "version": "1.2.2",
     "name": "__MSG_name__",
     "description": "__MSG_description__",
+    "background_page": "background.html"
     "options_page": "options.html",
     "icons": {"128": "icon_128.png", "19": "icon_19.png", "16": "icon_16.png"},
     "browser_action": {"default_title": "__MSG_title__", "default_icon": "icon_19.png", "popup": "popup.html"},
@@ -10,5 +11,5 @@
     [
         {"matches": ["http://*/*", "https://*/*"], "js": [ "jquery.js", "enigmapass.js", "supergenpass.js"]}
     ],
-    "default_locale": "en"
+    "default_locale": "en",
 }
