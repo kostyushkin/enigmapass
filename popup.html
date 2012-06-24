@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang = "en">
 	<head>
+    <meta charset="utf-8">
+    <title></title>
 	<style type = "text/css">
 		body{
 				overflow:      visible;
@@ -109,7 +111,6 @@
 				margin:        0;
 				padding:       3px;
 				border:        1px solid #aaa;
-				margin-left:   1px;
 			}
 
 			#genpasswd{
@@ -433,26 +434,26 @@
 
 				<div id="domain_input">
 					<label class="main" for="domain">Domain Name</label>
-					<input id="domain" type="text">
-					<input id="domainh" type="hidden">
+					<input id="domain" type="text"/>
+					<input id="domainh" type="hidden"/>
 				</div>
 
 				<div id="disableltdbox">
-					<input id="disabletld" type="checkbox">
+					<input id="disabletld" type="checkbox"/>
 					<label for="disabletld">Disable subdomain removal</label>
 				</div>
 
 				<ul id="scp_list"></ul>
 
-	   <div id="master_input" style="display: none">
-						<label class="main" id="dscr" for="Passwd">Master Password:</label>
-						<input id="password" type="password" autofocus="autofocus">
+	            <div id="master_input" style="display: none">
+						<label class="main" id="dscr" for="password">Master Password:</label>
+						<input id="password" type="password" autofocus tabindex="1"/>
 				</div>
 
 				<div id="generated" style="display: none">
 
 						<label class="main" for="genpasswd">Your generated password</label>
-						<input id="genpasswd" type="password">
+						<input id="genpasswd" type="password"/>
 						<div id="hint" style="display:none">Click to reveal password<div></div></div>
 				</div>
 
